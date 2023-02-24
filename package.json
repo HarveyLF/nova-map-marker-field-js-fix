@@ -23,6 +23,6 @@
     },
     "dependencies": {
         "leaflet-geosearch": "^3.7.0",
-        "vue2-leaflet-geosearch": "^1.0.6"
+        "vue2-leaflet-geosearch": "https://github.com/fega/vue2-leaflet-geosearch.git"
     }
 }
