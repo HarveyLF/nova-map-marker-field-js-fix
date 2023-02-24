@@ -67,7 +67,9 @@
                 shadowUrl: this.shadow,
             });
 
-            const providerOptions = {};
+            const providerOptions = {
+                params: {}
+            };
 
             if (typeof this.field.searchProviderKey !== 'undefined') {
                 providerOptions.params.key = this.field.searchProviderKey;
